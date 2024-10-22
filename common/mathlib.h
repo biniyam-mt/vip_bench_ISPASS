@@ -1,0 +1,26 @@
+#ifndef MATHLIB_H
+#define MATHLIB_H
+
+VIP_ENCDOUBLE mysqrt(VIP_ENCDOUBLE num);
+
+#ifndef VIP_ENC_MODE
+VIP_ENCDOUBLE myfloor_na(VIP_ENCDOUBLE x);
+VIP_ENCDOUBLE myround_na(VIP_ENCDOUBLE x);
+VIP_ENCDOUBLE myfabs_na(VIP_ENCDOUBLE x);
+VIP_ENCDOUBLE mypow_na(VIP_ENCDOUBLE x, unsigned exp);
+VIP_ENCDOUBLE mysin_na(VIP_ENCDOUBLE x);
+VIP_ENCDOUBLE mycos_na(VIP_ENCDOUBLE x);
+VIP_ENCDOUBLE myexp_na(VIP_ENCDOUBLE x);
+#endif
+
+VIP_ENCDOUBLE myfloor_no_cond(VIP_ENCDOUBLE x);
+VIP_ENCDOUBLE myround_no_cond(VIP_ENCDOUBLE x);
+VIP_ENCDOUBLE myfabs_no_cond(VIP_ENCDOUBLE x);
+VIP_ENCDOUBLE mypow_no_cond(VIP_ENCDOUBLE x, unsigned exp);
+VIP_ENCDOUBLE mysin_no_cond(VIP_ENCDOUBLE x);
+VIP_ENCDOUBLE mycos_no_cond(VIP_ENCDOUBLE x);
+VIP_ENCDOUBLE myexp_no_cond(VIP_ENCDOUBLE x);
+
+// VIP_ENCDOUBLE mylog(VIP_ENCDOUBLE x);
+
+#endif /* MATHLAB_H */

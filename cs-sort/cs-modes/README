@@ -1,0 +1,4 @@
+NA - Native buble-sort (VIP-Bench) version
+OG - Original bubble-sort data-oblivious version, naively-transformed from native
+F1 - Bitonic sort
+F2 - Randshell (?) Sort

@@ -1,0 +1,4 @@
+NA - Native boyer-moore-search native version
+OG - Original boyer-moore-search data-oblivious version, naively-transformed from native
+F1 - Data-oblivious boyer-moore-search implementation without heuristic 
+F2 - Rabin-Karp String Matching Algorithm
